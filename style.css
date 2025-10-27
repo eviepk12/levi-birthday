@@ -1,0 +1,48 @@
+body {
+    text-align: center;
+
+    font-family: "Delius", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+main {
+    display: grid;
+    grid-template-rows: auto auto;
+}
+
+main #levi {
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+button {
+    padding: 15px;
+    border-radius: 4px;
+    border: 2px solid red;
+    background-color: #f44336;
+    color: white;
+}
+
+main #mao-box {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+main #mao-box p {
+    display: grid;
+    place-items: center;
+}
+
+main #countdown {
+    font-size: large;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
