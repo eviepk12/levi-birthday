@@ -12,7 +12,7 @@ main {
 }
 
 main #levi {
-    height: 100vh;
+    height: 80vh;
     display: grid;
     place-items: center;
 }
@@ -25,15 +25,16 @@ button {
     color: white;
 }
 
-main #mao-box {
-    display: flex;
-    justify-content: space-evenly;
+#mao-box {
+    display: grid;
+    place-items: center;
+    height: 80vh;
 }
-
+/* 
 main #mao-box p {
     display: grid;
     place-items: center;
-}
+} */
 
 main #countdown {
     font-size: large;
